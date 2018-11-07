@@ -1,0 +1,256 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+	list-style: none;
+}
+body{
+	background: #F4F4F4;
+}
+button:focus{
+		outline: 0;
+        }
+.bgcolor{
+	width: 100%;
+	height: 20.2rem;
+	background: linear-gradient(-180deg, #84E196 0%, #30C0B1 100%);
+	position: relative;
+}
+.bgcolor .switch_up{
+	text-align: center;
+}
+.bgcolor .bigbox{
+	margin:auto;
+    /*margin-left: 2.5rem;*/
+    padding-top: 4rem;
+}
+.bgcolor .bigbox .list .watch{
+	width: 0.5rem !important;
+	height: 0.5rem;
+	border-radius: 50%;
+	background: white;
+	margin-left: -0.4rem;
+	margin-bottom: -0.2rem;
+}
+.bgcolor .bigbox .list .scale{
+	border: 1px solid white;
+	width: 0.2rem;
+	position: absolute;
+	left: 5.9rem;
+	bottom: 5.8rem;
+	transform: rotate(130deg);
+}
+.bgcolor .bigbox .list .scale2{
+	border: 1px solid white;
+	width: 0.2rem;
+	position: absolute;
+	left: 4.2rem;
+	bottom: 9.1rem;
+}
+.bgcolor .bigbox .list .scale3{
+	border: 1px solid white;
+	width: 0.2rem;
+	position: absolute;
+	left: 4.9rem;
+	bottom: 12.5rem;
+	transform: rotate(30deg);
+			/*margin-left: 0.2rem;*/
+}
+.bgcolor .bigbox .list .scale4{
+	border: 1px solid white;
+	width: 0.2rem;
+	position: absolute;
+	left: 7.5rem;
+	bottom: 15rem;
+	transform: rotate(60deg);
+}
+.bgcolor .bigbox .list .scale5{
+	border: 1px solid white;
+	width: 0.2rem;
+	position: absolute;
+	left: 12rem;
+	bottom: 15.1rem;
+	transform: rotate(120deg);
+	margin-bottom: -0.1rem;
+}
+.bgcolor .bigbox .list .scale6{
+	border: 1px solid white;
+	width: 0.2rem;
+	position: absolute;
+	left: 14.6rem;
+	bottom: 12.7rem;
+	transform: rotate(130deg);
+	margin-left: -0.1rem;
+}
+.bgcolor .bigbox .list .scale7{
+	border: 1px solid white;
+	width: 0.2rem;
+	position: absolute;
+	left: 15.3rem;
+	bottom: 9.1rem;
+	margin-left: -0.1rem;
+}
+.bgcolor .bigbox .list .scale8{
+	border: 1px solid white;
+	width: 0.2rem;
+	position: absolute;
+	left: 14rem;
+	bottom: 6rem;
+	transform: rotate(40deg);
+	margin-left: -0.3rem;
+}
+.bgcolor .picture_up{
+	background: url(../img/god.png)0 0 no-repeat;
+	background-size: 100% 100%;
+	width: 15rem;
+	height: 11.2rem;
+	margin:  0 auto;
+}
+.bgcolor .switch{
+	background: url(../img/open.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	width: 2rem;
+	height: 2rem;
+	margin: auto;
+}
+.bgcolor .cur{
+	background: url(../img/close.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	width: 2rem;
+	height: 2rem;
+	margin: auto;
+}
+.bg_down{
+	width: 100%;
+}
+.bg_down .picture,.bg_down .photo,.bg_down .photograph{
+	float: left;
+}
+.bg_down .left{
+	background: url(../img/2.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	width: 3.5rem;
+	height: 3.5rem;
+	float: left;
+}
+.bg_down .cur2{
+	background: url(../img/6.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	width: 3.5rem;
+	height: 3.5rem;
+	float: left;
+}
+.bg_down .middle{
+	background: url(../img/5.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	width: 3.5rem;
+	height: 3.5rem;
+	float: left;
+}
+.bg_down .cur3{
+	background: url(../img/3.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	width: 3.5rem;
+	height: 3.5rem;
+	float: left;
+}
+.bg_down .right{
+	background: url(../img/4.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	width: 3.5rem;
+	height: 3.5rem;
+	float: left;
+}
+.bg_down .cur4{
+	background: url(../img/7.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	width: 3.5rem;
+	height: 3.5rem;
+	float: left;
+}
+.bg_down .list_mode{
+	/*float: left;*/
+	color: gray;
+}
+.bg_down .list_mode .picture{
+	padding: 1.6rem;
+}
+.bg_down .list_mode .photo{
+	padding: 1.6rem;
+	
+}
+.bg_down .list_mode .photograph{
+	padding: 1.5rem;
+}
+.bg_down .list_mode p{
+/*	display: inherit;*/
+	text-align: center;
+/*	line-height: 10rem;*/
+	font-size: 1rem;
+/*	color: gray;*/
+}
+.bg_down .bigbutton{
+	width: 8rem;
+	height: 2rem;
+	background: #30C0B1;
+	border-radius: 2rem;
+	margin: 2rem auto;
+	font-size: 1rem;
+	text-align: center;
+	line-height: 2rem;
+	color: white;
+}
+.ban{
+	opacity: 0.5;
+}
+.notclick{
+	pointer-events: none;
+}
+.fivefivefive{
+	color: #30C0B1;
+}
+/* .lightgreen{
+	background: red;
+} */
+.green{
+	background: linear-gradient(-180deg, #84E196 0%, #30C0B1 100%);
+}
+/* .darkgreen{
+	background: linear-gradient(-180deg, #84E196 0%, #30C0B1 100%);
+} */
+/* .lightyellow{
+	background: linear-gradient(-180deg, #84E196 0%, #30C0B1 100%);
+} */
+.yellow{
+	background: linear-gradient(-180deg, #FBD265 3%, #DBB519 100%);
+}
+/* .darkyellow{
+	background: linear-gradient(-180deg, #84E196 0%, #30C0B1 100%);
+} */
+/* .lightred{
+	background: linear-gradient(-180deg, #84E196 0%, #30C0B1 100%);
+} */
+.red{
+	background: linear-gradient(-180deg, #F98157 7%, #DB4319 100%);
+}
+.offpower{
+	width: 100%;
+	height: 20.2rem;
+	background: linear-gradient(-180deg, #555B62 0%, #2E333A 100%);
+	position: relative;
+}
+.onlineoff{
+	width: 100%;
+	height: 20.2rem;
+	background: linear-gradient(-180deg, #989B9F 0%, #6C7074 100%);
+	position: relative;
+}
+.onpower{
+	width: 100%;
+	height: 20.2rem;
+	background: linear-gradient(-180deg, #84E196 0%, #30C0B1 100%);
+	position: relative;
+}
