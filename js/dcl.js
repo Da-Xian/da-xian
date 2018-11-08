@@ -35,10 +35,17 @@ $(function () {
     		$(this).addClass("watch").siblings().removeClass("watch");
     });
 		//点击数字改变背景色
+// 		var num=[1,2,3,4,5,6,7,8];
+// 		for(var i=1;i<num.length;i++){
+// 			$(".number"+num[i]).click(function(){
+// 				$(".scale"+num[i]).addClass("watch").siblings().removeClass("watch");
+// 			});
+// 		};
 		var num=[1,2,3,4,5,6,7,8];
-		for(var i=1;i<num.length;i++){
+		for(var i=0;i<num.length;i++){
 			$(".number"+num[i]).click(function(){
-				$(".scale"+num[i]).addClass("watch").siblings().removeClass("watch");
+				var thisIndex=parseInt($(this).attr('class').replace(/[^0-9]/ig,""));
+				$(".scale"+thisIndex).addClass("watch").siblings().removeClass("watch");
 			});
 		};
 // 		$(".number1").click(function(){
