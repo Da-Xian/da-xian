@@ -33,7 +33,7 @@ button:focus{
 }
 .bgcolor .bigbox .box ul li{
 	color: white;
-	font-size: 1rem;
+	font-size: 0.5rem;
 }
 .bgcolor .bigbox .box ul .number1{
 	position: absolute;
@@ -47,18 +47,18 @@ button:focus{
 }
 .bgcolor .bigbox .box ul .number3{
 	position: absolute;
-	left: 0.5rem;
+	left: 0.9rem;
 	bottom: 13rem;
 }
 .bgcolor .bigbox .box ul .number4{
 	position: absolute;
 	left: 5.5rem;
-	bottom: 18rem;
+	bottom: 17.7rem;
 }
 .bgcolor .bigbox .box ul .number5{
 	position: absolute;
 	left: 14rem;
-	bottom: 18rem;
+	bottom: 17.3rem;
 }
 .bgcolor .bigbox .box ul .number6{
 	position: absolute;
