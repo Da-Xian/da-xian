@@ -43,7 +43,7 @@ button:focus{
 .bgcolor .bigbox .box ul .number2{
 	position: absolute;
 	left: 0.5rem;
-	bottom: 8.5rem;
+	bottom: 8.7rem;
 }
 .bgcolor .bigbox .box ul .number3{
 	position: absolute;
@@ -67,13 +67,13 @@ button:focus{
 }
 .bgcolor .bigbox .box ul .number7{
 	position: absolute;
-	left: 17.5rem;
-	bottom: 8.5rem;
+	left: 17.8rem;
+	bottom: 8.7rem;
 }
 .bgcolor .bigbox .box ul .number8{
 	position: absolute;
 	left: 16rem;
-	bottom: 5rem;
+	bottom: 4rem;
 }
 .bgcolor .bigbox .list .watch{
 	width: 0.5rem !important;
