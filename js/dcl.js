@@ -34,18 +34,49 @@ $(function () {
     $('.list').on('click','li',function(){
     		$(this).addClass("watch").siblings().removeClass("watch");
     });
+		//点击数字改变背景色
+		var num=[1,2,3,4,5,6,7,8];
+		for(var i=1;i<num.length;i++){
+			$(".number"+num[i]).click(function(){
+				$(".scale"+num[i]).addClass("watch").siblings().removeClass("watch");
+			});
+		};
+// 		$(".number1").click(function(){
+// 			$('.scale1').addClass("watch").siblings().removeClass("watch");
+// 		});
+// 		$(".number2").click(function(){
+// 			$('.scale2').addClass("watch").siblings().removeClass("watch");
+// 		});
+// 		$(".number3").click(function(){
+// 			$('.scale3').addClass("watch").siblings().removeClass("watch");
+// 		});
+// 		$(".number4").click(function(){
+// 			$('.scale4').addClass("watch").siblings().removeClass("watch");
+// 		});
+// 		$(".number5").click(function(){
+// 			$('.scale5').addClass("watch").siblings().removeClass("watch");
+// 		});
+// 		$(".number6").click(function(){
+// 			$('.scale6').addClass("watch").siblings().removeClass("watch");
+// 		});
+// 		$(".number7").click(function(){
+// 			$('.scale7').addClass("watch").siblings().removeClass("watch");
+// 		});
+// 		$(".number8").click(function(){
+// 			$('.scale8').addClass("watch").siblings().removeClass("watch");
+// 		});
 		//点击改变背景色
-			$(".scale,.scale2,.scale3").click(function(){
+			$(".scale1,.scale2,.scale3,.number1,.number2,.number3").click(function(){
 				$(".bgcolor").addClass("green");
 				$(".bgcolor").removeClass("yellow");
 				$(".bgcolor").removeClass("red");
 			});
-			$(".scale4,.scale5").click(function(){
+			$(".scale4,.scale5,.number4,.number5").click(function(){
 				$(".bgcolor").addClass("yellow");
 				$(".bgcolor").removeClass("green");
 				$(".bgcolor").removeClass("red");
 			});
-			$(".scale7,.scale6,.scale8").click(function(){
+			$(".scale7,.scale6,.scale8,.number6,.number7,.number8").click(function(){
 				$(".bgcolor").addClass("red");
 				$(".bgcolor").removeClass("yellow");
 				$(".bgcolor").removeClass("green");
@@ -96,6 +127,6 @@ $(function () {
 // 			document.bgColor=color;
 // 			
 // 	}
-
+	
 	
 	};
