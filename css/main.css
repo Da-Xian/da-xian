@@ -24,8 +24,56 @@ button:focus{
 }
 .bgcolor .bigbox{
 	margin:auto;
-    /*margin-left: 2.5rem;*/
-    padding-top: 4rem;
+    padding-top: 2rem;
+	
+    /* display: flex;
+	
+    justify-content: center;
+	align-items: center; */
+}
+.bgcolor .bigbox .box ul li{
+	color: white;
+	font-size: 1rem;
+}
+.bgcolor .bigbox .box ul .number1{
+	position: absolute;
+	left: 3rem;
+	bottom: 4rem;
+}
+.bgcolor .bigbox .box ul .number2{
+	position: absolute;
+	left: 0.5rem;
+	bottom: 8.5rem;
+}
+.bgcolor .bigbox .box ul .number3{
+	position: absolute;
+	left: 0.5rem;
+	bottom: 13rem;
+}
+.bgcolor .bigbox .box ul .number4{
+	position: absolute;
+	left: 5.5rem;
+	bottom: 18rem;
+}
+.bgcolor .bigbox .box ul .number5{
+	position: absolute;
+	left: 14rem;
+	bottom: 18rem;
+}
+.bgcolor .bigbox .box ul .number6{
+	position: absolute;
+	left: 17.5rem;
+	bottom: 13rem;
+}
+.bgcolor .bigbox .box ul .number7{
+	position: absolute;
+	left: 17.5rem;
+	bottom: 8.5rem;
+}
+.bgcolor .bigbox .box ul .number8{
+	position: absolute;
+	left: 16rem;
+	bottom: 5rem;
 }
 .bgcolor .bigbox .list .watch{
 	width: 0.5rem !important;
@@ -35,79 +83,78 @@ button:focus{
 	margin-left: -0.4rem;
 	margin-bottom: -0.2rem;
 }
-.bgcolor .bigbox .list .scale{
-	border: 0.1rem solid white;
+.bgcolor .bigbox .list .scale1{
+	border: 1px solid white;
 	width: 0.2rem;
 	position: absolute;
-	left: 5.9rem;
+	left: 4.5rem;
 	bottom: 5.8rem;
 	transform: rotate(130deg);
 }
 .bgcolor .bigbox .list .scale2{
-	border: 0.1rem solid white;
+	border: 1px solid white;
 	width: 0.2rem;
 	position: absolute;
-	left: 4.2rem;
+	left: 2.8rem;
 	bottom: 9.1rem;
 }
 .bgcolor .bigbox .list .scale3{
-	border: 0.1rem solid white;
+	border: 1px solid white;
 	width: 0.2rem;
 	position: absolute;
-	left: 4.9rem;
+	left: 2.9rem;
 	bottom: 12.5rem;
 	transform: rotate(30deg);
 			/*margin-left: 0.2rem;*/
 }
 .bgcolor .bigbox .list .scale4{
-	border: 0.1rem solid white;
+	border: 1px solid white;
 	width: 0.2rem;
 	position: absolute;
-	left: 7.5rem;
-	bottom: 14.9rem;
+	left: 6.4rem;
+	bottom: 17rem;
 	transform: rotate(60deg);
-	z-index: 1;
 }
 .bgcolor .bigbox .list .scale5{
-	border: 0.1rem solid white;
+	border: 1px solid white;
 	width: 0.2rem;
 	position: absolute;
-	left: 12rem;
-	bottom: 15.1rem;
+	left: 14rem;
+	bottom: 16.7rem;
 	transform: rotate(120deg);
-	margin-bottom: -0.3rem;
+	margin-bottom: -0.1rem;
 }
 .bgcolor .bigbox .list .scale6{
-	border: 0.1rem solid white;
+	border: 1px solid white;
 	width: 0.2rem;
 	position: absolute;
-	left: 14.6rem;
-	bottom: 12.3rem;
+	left: 16.9rem;
+	bottom: 12.7rem;
 	transform: rotate(130deg);
 	margin-left: -0.1rem;
 }
 .bgcolor .bigbox .list .scale7{
-	border: 0.1rem solid white;
+	border: 1px solid white;
 	width: 0.2rem;
 	position: absolute;
-	left: 15.1rem;
+	left: 17rem;
 	bottom: 9.1rem;
 	margin-left: -0.1rem;
 }
 .bgcolor .bigbox .list .scale8{
-	border: 0.1rem solid white;
+	border: 1px solid white;
 	width: 0.2rem;
 	position: absolute;
-	left: 14rem;
+	left: 15.6rem;
 	bottom: 6rem;
 	transform: rotate(40deg);
-	margin-left: -0.3rem;
+	margin-left: -0.2rem;
 }
 .bgcolor .picture_up{
 	background: url(../img/god.png)0 0 no-repeat;
 	background-size: 100% 100%;
 	width: 15rem;
-	height: 11.2rem;
+	height: 13.85rem;
 	margin:  0 auto;
 }
 .bgcolor .switch{
