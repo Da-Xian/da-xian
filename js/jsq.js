@@ -102,6 +102,8 @@ function clear_fourth(){
 function powerOn(){
 	"use strict";
 	$(".bgcolor").removeClass("offPower");
+	$(".picture").removeClass("off");
+	$(".bgcolor").removeClass("offOnLine");
 	$("button").attr("disabled",false);
 	$(".curture p").html("设备在线,点击关闭");
 	$(".photo_left").removeClass("lightswitch");
@@ -111,6 +113,8 @@ function powerOn(){
 //关机
 function powerOff(){
 	"use strict";
+	$(".bgcolor").removeClass("offOnLine");
+	$(".picture").removeClass("off");
 	$(".bgcolor").addClass("offPower");
 	$(".switch").show();
 //	$(".picture").addClass("off");
