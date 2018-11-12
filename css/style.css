@@ -131,7 +131,7 @@ button:focus{
 	border-right: 1px solid #898989;
 }
 .active{
-	border-bottom: 0.1rem solid #30C0B1;
+/*	border-bottom: 0.1rem solid #30C0B1;*/
 	color: #30C0B1 !important;
 }
 .bg_down{
@@ -294,4 +294,11 @@ button:focus{
 }
 .active_color{
 	color: #30C0B1 !important;
+}
+.bg_middle .box button .choose hr,.bg_middle .box button .chose hr{
+	background-color: #30C0B1;
+    height: 0.1rem !important;
+    width: 4rem;
+    margin: 0 auto;
+	border: 0;
 }
